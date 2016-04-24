@@ -5,6 +5,40 @@
     <title>A Trip to Ireland</title>
   </head>
   <body>
+    <header>
+      <h1>Our Favorite Things To Do in Ireland</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
+      </ul>
+    </nav>
+    <form action="thank_you.html" method="post">
+      <fieldset>
+        <div>
+          <label>Name:</lable>
+          <input type="text" name="name">
+        </div>
+        <div>
+          <label>Your Favorite Place:</label>
+          <select name="favorite place">
+            <option value="england">England</option>
+            <option value="france">France</option>
+            <option value="ireland">Ireland</option>
+            <option value="italy">Italy</option>
+            <option value="spain">Spain</option>
+          </select>
+        </div>
+      </fieldset>
+      <div>
+        <label>Tell us some of your travel favorites:</label>
+      </div>
+      <div>
+        <textarea name="favorites submission" rows="10" cols="50">Share here</textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
 
   </body>
 </html>
