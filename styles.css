@@ -63,8 +63,8 @@ footer .boilerplate {
 
 /* Start of media queries */
 @media screen and (max-width: 500px) {
-  h2 {
-    font-color: #096829;
+  .green {
+    color: #096829;
   }
   body {
     font-family: Helvetica, sans-serif;
