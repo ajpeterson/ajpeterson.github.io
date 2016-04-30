@@ -2,32 +2,35 @@ body {
   background-color: #eae8e8;
 }
 nav ul li {
-  color: #000000;
   list-style: none;
   display: inline;
   margin: 0 10px;
 }
-nav ul li a:link {
-  color: #7c7c7c;
-  text-decoration: none;
-  font-weight: bold;
-}
-nav ul li a:hover {
-  color: #7c7c7c;
-  text-decoration: underline;
-  font-weight: bold;
-}
-nav ul li a:visited {
+a:visited {
   color: #418e4f;
   text-decoration: none;
   font-weight: bold;
 }
+nav ul li {
+  font-family: Helvetica, sans-serif;
+}
+a:link {
+  color: #7c7c7c;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #7c7c7c;
+  text-decoration: underline;
+}
+
 section p {
   margin-left: 50px;
   margin-bottom: 25px;
   margin-top: -10px;
 }
 .border {
+  font-family: Helvetica, sans-serif;
   color: #ffffff;
   padding: 25px;
   border: 1px solid #7c7c7c;
