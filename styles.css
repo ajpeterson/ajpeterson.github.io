@@ -2,9 +2,25 @@ body {
   background-color: #eae8e8;
 }
 nav ul li {
+  color: #000000;
   list-style: none;
   display: inline;
   margin: 0 10px;
+}
+nav ul li a:link {
+  color: #7c7c7c;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #7c7c7c;
+  text-decoration: underline;
+  font-weight: bold;
+}
+nav ul li a:visited {
+  color: #418e4f;
+  text-decoration: none;
+  font-weight: bold;
 }
 section p {
   margin-left: 50px;
@@ -25,7 +41,14 @@ img {
   padding: 5px;
   border: 5px solid #7c7c7c;
 }
-
+#button {
+  background-color: #7c7c7c;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 5px;
+}
 footer .boilerplate {
   border-top: 1px solid #7c7c7c;
   margin-top: 20px;
